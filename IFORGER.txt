@@ -1,0 +1,9 @@
+incase i forget the commands to build and package the application 
+
+1-   removing prev  build 
+ 
+   rmdir /s /q MemoryPatcher\bin MemoryPatcher\obj
+
+2- build and pack single file 
+
+   dotnet publish MemoryPatcher/MemoryPatcher.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o MemoryPatcher/Xainjector
