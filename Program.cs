@@ -13,7 +13,7 @@ using System.Security.Principal;
 
 
 
-namespace MemoryPatcher
+namespace Injector
 {
     class Program
     {
